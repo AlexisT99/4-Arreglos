@@ -36,7 +36,7 @@ let student3 = {
   model.aprobatoria(students);
   console.log("------UPDATE Por numero de control------");
   model.update(12345678,["name","grade"],["Alan Torres", "99"],students);
-  model.read(students);
+  model.estudiante(12345678,students);
 
 
 

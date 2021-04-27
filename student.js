@@ -71,8 +71,8 @@ function aprobatoria(students) {
     if (students[i].grade >= 70) {
       console.log(students[i].name);
     }
-    return;
   }
+      return;
 }
 
 module.exports.create = create;
